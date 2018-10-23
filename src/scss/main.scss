@@ -1,0 +1,50 @@
+//@import 'fonts';
+@import 'videolayout';
+@import 'blanklayout';
+@import 'mainlayout';
+
+@import "landing";
+@import 'exchangemarket';
+@import "dashboard";
+@import "profile";
+
+* {
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+body {
+  font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
+  min-width: 700px;
+}
+
+.green {
+  color: #016d15;
+}
+
+.red {
+  color: #d20000;
+}
+
+/* Random */
+
+.realtimeIndicator {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.realtime-div {
+  float: right;
+  white-space: nowrap;
+}
+
+.padding-bottom {
+  padding-bottom: 20px;
+}
+
+.ant-table-tbody td{
+  border: none!important
+}

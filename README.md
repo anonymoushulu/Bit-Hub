@@ -1,21 +1,19 @@
-#Bitcoin Hub
+# comp5703cp225 - Bitcoin Hub
 
-## 项目简介：
+1) Adjust the mongoose database configuration in the config.js file (must have a minimum of 2gb for the default configuration with 2 exchanges),
+the JWT secret, the social login configurations, and the email server configuration.
 
-### An Online Web-Streaming Service for Bitcoin-Exchanges
+2) Do "npm install" to install the required modules
 
-In recent years, there has been a surge of interest in cryptocurrencies such as Bitcoin from private investors, major financial institutions and governments. Investors require a mechanism to convert between fiat currency and cryptocurrency (and between cryptocurrencies) so several public exchanges (e.g. GDAX) have been created to enable cross-currency trading. Like any exchange, cryptocurrency exchanges have attracted day traders employing a variety of computational finance techniques. 
+3) 
 
-In this project, students will retrieve, store, and visualize data from various cryptocurrency exchanges. Students will also employ data modelling techniques to find suitable data-structures to represent order books of exchanges, will store them in a relational database, and visualize them via a web-interface using java-script. 
+Dev Mode:
 
-Required: python, some web-server technologies (preferable the ones based on python) Helpful: git, familiarity with bitcoin, familiarity with stock/currency exchanges. Student cohort: This project is suitable for MIT/MITM students.
+do "npm start" to build and launch the application in development mode
 
-## 成果：
+Prod Mode:
 
-- 小组报告 & 每周的个人工作报告
-- 代码（项目完成后会push到这个仓库）
-
-
+do "npm run prod" to build and launch the application in production mode
 
 
-
+Notes: Initial download of market data may take more than 1 hour.

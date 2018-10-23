@@ -1,0 +1,52 @@
+.landing-card {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.login-logo {
+  height: 57px;
+  margin-right: 8px;
+  vertical-align: top;
+}
+
+.login-logo-title {
+  color: rgba(0,0,0,.85);
+  font-size: 33px;
+  font-weight: 600;
+  position: relative;
+  top: 2px;
+}
+
+.social-btn {
+  position: relative;
+}
+
+.social-btn-i {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.facebook-btn {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.google-btn {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+.github-btn{
+  background-color:#2b2b2b;
+  border-color: rgba(0,0,0,0.2);
+}

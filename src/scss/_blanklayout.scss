@@ -1,0 +1,27 @@
+a {
+  text-decoration: none !important;
+}
+
+.blank-layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+  background: #3551a0
+}
+
+.blank-layout-content {
+  padding: 112px 0 24px;
+}
+
+.blank-layout-top {
+  text-align: center;
+}
+
+.blank-layout-footer {
+  text-align: center;
+}
+
+.card {
+  background-color: #eff2f5;
+}

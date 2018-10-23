@@ -3,5 +3,6 @@ bin/
 node_modules/
 public/
 routes/
-test.js
+检测端口占用.js
 views/
+*.mov
